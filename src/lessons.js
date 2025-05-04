@@ -6,7 +6,7 @@ const lessons = [
     date: "4/5/2025",
     links: ["https://www.math.colostate.edu/~clayton/teaching/m369s17/exams/exam2practicesolutions.pdf"],
     src: "https://www.youtube.com/embed/A-4ZksoIepY?si=5HidSostqJk5rRBX",
-    title: "Vector space",
+    title: "Vector Space",
     description: 
 `1) X + Y belongs to V 
 2) (X + Y) + Z = X + (Y + Z)
