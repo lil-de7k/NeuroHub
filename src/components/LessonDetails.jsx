@@ -104,13 +104,13 @@ const LessonDetails = () => {
         <h2 className="text-[13.5px] sm:text-[16.5px] w-fit font-semibold mb-1.5 sm:mb-2 border-b-2 pt-4 sm:pt-5">Links</h2>
         <ul className="space-y-1">
           {lesson.links.map((link, index) => (
-            <li key={index} className="p-2 flex py-1.5 px-2 sm:px-3 bg-gray-100 items-center gap-2 text-xs sm:text-sm md:text-[14px] flex-wrap">
+            <li key={index} className="p-2 flex py-1.5 px-2 sm:px-3 bg-gray-100 rounded-md items-center gap-2 text-xs sm:text-sm md:text-[14px] flex-wrap">
               <FontAwesomeIcon icon={faLink} className="text-black min-w-4" />
               <a
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-800  hover:underline rounded break-all"
+                className="text-gray-800 hover:underline rounded break-all"
               >
                 {link}
               </a>
