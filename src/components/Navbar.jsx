@@ -33,16 +33,16 @@ const Navbar = () => {
 
       {/* Social icons - desktop */}
       <div className='hidden md:flex gap-1.5 items-center'>
-        <a href='https://github.com' target='_blank' rel='noopener noreferrer'>
+        <a href='https://github.com/lil-de7k' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faGithub} className='text-white p-3 rounded-full text-[17px] transition-all duration-200 ease-in-out hover:bg-gray-900/70' />
         </a>
-        <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'>
+        <a href='https://linkedin.com/in/muhammad-abdelaty/' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faLinkedin} className='text-white p-3 rounded-full text-[16px] transition-all duration-200 ease-in-out hover:bg-gray-900/70' />
         </a>
-        <a href='https://wa.me/2012254567890' target='_blank' rel='noopener noreferrer'>
+        <a href='https://wa.me/201012857997' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faWhatsapp} className='text-white p-3 rounded-full text-[17px] transition-all duration-200 ease-in-out hover:bg-gray-900/70' />
         </a>
-        <a href='https://instagram.com' target='_blank' rel='noopener noreferrer'>
+        <a href='https://instagram.com/lil__de7k' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faInstagram} className='text-white p-3 rounded-full text-[17px] transition-all duration-200 ease-in-out hover:bg-gray-900/70' />
         </a>
       </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
       {/* Mobile menu dropdown */}
       {isMenuOpen && (
         <div className='md:hidden absolute top-full left-0 right-0 bg-black border-t border-gray-800 p-4 flex flex-col gap-2'>
-          <a href='https://github.com/muhmedv' target='_blank' rel='noopener noreferrer' className='text-white text-[13px] flex items-center gap-3 py-2'>
+          <a href='https://github.com/lil-de7k' target='_blank' rel='noopener noreferrer' className='text-white text-[13px] flex items-center gap-3 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-[15px]' />
             <span>GitHub</span>
           </a>
