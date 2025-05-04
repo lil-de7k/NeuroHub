@@ -15,7 +15,7 @@ const Categories = () => {
   return (
     <div className="mx-4 sm:mx-6 md:mx-10 pt-20 md:pt-24 min-h-screen">
       <div className="flex justify-center mb-3 sm:mb-4">
-        <p className="font-semibold text-md sm:text-lg md:text-[20px] text-black">All Notes</p>
+        <p className="font-semibold text-[17px] sm:text-lg md:text-[20px] text-black">All Notes</p>
       </div>
       
       <div className="flex gap-2 sm:gap-3 md:gap-4 border-2 border-gray-300/10 bg-gray-200 rounded-lg p-2 sm:p-3 mt-2 overflow-x-auto">
