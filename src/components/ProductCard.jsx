@@ -7,7 +7,7 @@ const ProductCard = ({ lesson }) => {
       <div className="flex justify-end">
         <p className="text-xs text-gray-950 opacity-95">{lesson.date}</p>
       </div>
-      <h2 className="text-sm sm:text-[15px] md:text-[17px] font-semibold text-gray-950 mt-0.5 line-clamp-2">{lesson.name}</h2>
+      <h2 className="text-sm sm:text-[15px] md:text-[17px] font-semibold text-gray-950 sm:mt-0.5 line-clamp-2">{lesson.name}</h2>
       <p className="text-[9px] sm:text-[10px] w-fit tracking-wide px-2 sm:px-3 py-1 sm:py-1.5 mt-2 sm:mt-2.5 rounded-md bg-gray-300 text-gray-950 font-medium">{lesson.category}</p>
     </Link>
   );
